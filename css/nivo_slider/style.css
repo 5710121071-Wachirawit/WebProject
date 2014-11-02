@@ -1,0 +1,80 @@
+
+#slider-wrapper {
+    width:990px;
+    margin:0 auto;
+	position:relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#slider {
+	position:relative;
+    width:777px;
+	background:url(images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	z-index:100;
+	bottom:0px;
+	right:10px;
+
+}
+.nivo-controlNav a {
+	display:block;
+	float:left;
+	width:25px;
+	height:25px;
+	z-index:100;
+	margin-right:3px;
+	vertical-align:middle;
+	text-align:center;
+	color:#FFF;
+	background: no-repeat url('images/bg_g.gif');
+	padding:5px 0 0 0;
+}
+
+.nivo-controlNav a.active {
+	background-position:-32px 0px;
+}
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}

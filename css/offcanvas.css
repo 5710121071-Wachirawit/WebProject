@@ -1,0 +1,39 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html {
+  /*overflow-x: hidden; */ /* Prevent scroll on narrow devices */
+}
+body {background-image: url(../images/bckbubble4.gif);
+/*  padding-top: 70px; #b2f0ff*/
+}
+footer {
+  padding: 10px 0;
+ /* background-color:#CAE7FF; */
+  text-align:center;
+}
+.nav-rid-link img{
+  width:100%;
+}
+.nav-rid-link li{
+  padding:7px 2px 7px 2px; 
+}
+.navbar-brand{
+ padding:2px;
+ padding-top:6px;
+}
+.nivoSlider img{
+  width:100%;height:auto; max-width: none; 
+ }
+.list-forward-item{
+  list-style-image:url(../images/foward.png);
+  padding-top:2px;
+}
+li{
+  list-style-image:url(../images/icon2_39.jpg);
+}
+.navbar li{
+ list-style-image:none;
+}
+

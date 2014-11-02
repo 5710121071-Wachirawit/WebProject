@@ -1,0 +1,1 @@
+<? function SCode($in) { srand ($in * 513); $im = rand(100000,999999); 	$sim = "" . $im; $mim = md5($sim); $out = $sim[0]; $out .= substr($mim, 2, 5);	return strtoupper($out); } ?>
